@@ -1,0 +1,155 @@
+body{
+    background-color:hsl(240, 7%, 89%);
+
+
+}
+
+.container{
+    margin-left :auto;
+    margin-right :auto;
+    width :1024px;
+}
+
+header{
+    background-color: white;
+    height :110px;
+    width :1024px;
+    text-align: center;
+
+}
+
+nav{
+    background-color: rgba(25, 32, 32, 0.671);
+    width :1024px;
+    padding-top:14px;
+    padding-bottom:14px;
+    text-align: center;
+
+}
+
+main{
+    height : 488px;
+    width :1024px;
+    margin-top: 80px;
+    text-align: center;
+    padding-top:50px;
+    color: white;
+    background-image:url(sujal/sunset-3084651_1920.jpg)
+}
+
+footer{
+    background-color:white;
+    height :3300px;
+    width :1024px;
+}
+h1{
+    color :white; 
+    text-align: center;
+}
+a{
+    color:white;
+    height: 20px;
+    width:20px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+footer h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+}
+footer h3{
+    font-size:14px;
+    padding-top: 23px;
+    font-size: large;
+    padding-right: 50px;
+    text-align: center;
+}
+.row{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background-color: rgb(241, 202, 202);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px /*rgba(0 ,0 ,0 ,2)*/;
+}
+@media (max-width :700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.layer h3{
+    font-size: larger;
+}
+.campus col img{
+    width:100%;
+    border-radius: 10px;
+}
+.testimonials{
+    width:80%;
+    margin:auto;
+    padding-top: 50px;
+    text-align: centre;
+
+}
+.testimonial-col{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgb(238, 195, 195);
+    padding:25px;
+    cursor: pointer;
+    display: flex;
+}
+.testimonial-col img{
+    height:40px;
+    margin-left: 5px;
+    border-radius: 90%;
+    
+
+}
+/* NS */
+.NS{
+    margin:100px auto;
+    width:1002px;
+    background-image: url(sujal/ribblehead-viaduct-2443085_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+.NS a{
+    width:500px;
+    height:100px;
+    text-align: center;
+    background-color: rgb(247, 156, 171);
+}
+/* footer*/
+.footer{
+    text-align: center;
+}
+.footer h4{
+    font-size: large;
+}
+.footer{
+    padding-top: 100px;
+}
+.box .map {
+    text-align: center;
+}
+
